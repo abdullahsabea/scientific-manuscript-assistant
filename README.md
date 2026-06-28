@@ -11,7 +11,9 @@
 
 An AI agent **skill** tailored for PhD researchers and academic authors across **all STEM disciplines** (Engineering, Physics, Biology, Computer Science, Chemistry, etc.).
 
-This skill provides a set of rigorous system instructions that constrain an AI assistant (like Copilot, Gemini, or ChatGPT) to act as a highly professional scientific drafting and review tool, enforcing strict guardrails against fabricated science, plagiarism, and unethical AI use.
+This skill provides a set of rigorous system instructions that constrain your AI assistant to act as a highly professional scientific drafting and review tool, enforcing strict guardrails against fabricated science, plagiarism, and unethical AI use. 
+
+**🤖 Model Agnostic:** This skill is universally compatible with almost every major AI agent, including **Claude (Anthropic), ChatGPT (OpenAI), Gemini (Google), and Cohere**.
 
 ---
 
