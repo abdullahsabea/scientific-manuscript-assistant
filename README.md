@@ -22,9 +22,17 @@ This skill helps researchers draft, refine, and check LaTeX manuscripts for top-
 **Key features include:**
 - 🛡️ **Anti-Fabrication Guarantee:** Explicit instructions to never invent data, results, or fake citations.
 - 🔬 **Scientific Plausibility Checks:** Evaluates process parameters, structural mechanics, and fatigue claims for conceptual consistency.
+- ⚙️ **Automated Verification:** Includes local Python scripts for calculating Volumetric Energy Density (VED), checking Crossref for retractions, and validating LaTeX syntax.
 - ✍️ **Human-centric Writing:** Actively discourages generic "AI tone" (e.g., overuse of "Moreover", "Significantly") and adapts to your unique writing voice.
 - 📝 **LaTeX Preservation:** Maintains all LaTeX formatting, citations (`\cite`), labels (`\label`), and equations without breaking compilation.
-- 🛑 **Ethical AI Disclosure:** Built-in reminders for checking retracted literature and adhering to target journal AI-disclosure policies.
+- 🛑 **Ethical AI Disclosure:** Built-in configs for specific journals (Elsevier, Nature) for adherence to target journal AI-disclosure policies.
+
+## ⚙️ Automated Workflows
+This repository includes a `scripts/` directory with automated tools that your AI assistant can execute locally:
+- `am_calculator.py`: Verifies Volumetric Energy Density (VED) and Basquin equation consistency based on your manuscript's stated values.
+- `check_retractions.py`: Queries the Crossref API against your `.bib` file to flag potentially retracted or updated references.
+- `latex_validator.py`: A local checker that ensures your LaTeX environments and braces are perfectly balanced.
+- `self_plagiarism_check.py`: Compares your new draft against a directory of your past papers to prevent excessive boilerplate reuse.
 
 ## 🚀 How to Use
 
